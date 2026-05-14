@@ -1,0 +1,8 @@
+=================================================
+               CCF TCARCH Self-Test              
+=================================================
+Job started on mi100-1 at Thu Sep 11 08:39:18 AM UTC 2025
+
+STEP 1: Compiling source code...
+clang++: error: no such file or directory: 'main.hip'
+failed to execute:/opt/rocm-6.4.3/lib/llvm/bin/clang++  --offload-arch=gfx908 -O3 --driver-mode=g++ -O3 --hip-link  -o "main" -x hip main.hip
