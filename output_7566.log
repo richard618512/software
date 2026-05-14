@@ -1,0 +1,18 @@
+=================================================
+               CCF TCARCH Self-Test              
+=================================================
+Job started on mi100-1 at Thu Sep 11 09:01:49 AM UTC 2025
+
+STEP 1: Compiling source code...
+Compilation successful. Executable 'main' created.
+
+STEP 2: Running test cases...
+Found 10 test cases in testcases
+-------------------------------------------------
+Running test [10]... FAIL
+-------------------------------------------------
+ERROR: Output mismatch on test case [10].
+Your output is in: my_outputs/10.myout
+The correct output is in: testcases/10.out
+You can use 'diff -u testcases/10.out my_outputs/10.myout' to see the difference.
+Aborting tests.
